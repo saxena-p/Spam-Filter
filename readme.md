@@ -8,9 +8,7 @@ Essentially we calculate word frequencies, prior probabilities, and conditional 
 Each sms is broken down into its constituent words $(w_1, w_2, \dotsc , w_n)$.
 For each new message, we need to calculate the following probabilities to classify as spam or ham.
 
-$
-P(Spam| w_1, w_2, \dotsc , w_n) \propto P (Spam)  \prod\limits_{i=1}^{n} P(w_i | Spam )
-$
+$ P(Spam| w_1, w_2, \dotsc , w_n) \propto P (Spam)  \prod\limits_{i=1}^{n} P(w_i | Spam ) $
 
 $
 P(Ham| w_1, w_2, \dotsc , w_n) \propto P (Ham)  \prod\limits_{i=1}^{n} P(w_i | Ham )
