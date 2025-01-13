@@ -8,3 +8,5 @@ Essentially we calculate word frequencies, prior probabilities, and conditional 
 - Python programming language
 - Jupyter notebook environment
 - pandas 
+
+The Jupyter notebook "Spam_Filter.ipynb" contains all the codes and the results. It is thoroughly commented and self-explanatory.
